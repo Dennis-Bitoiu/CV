@@ -4,107 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Dennis Bitoiu</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Dennis</h1>
+        <h2 class="programmer">A <span class="pro">pro</span>grammer</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img style="position: relative; top: 5px;" src="images/mountain.png" alt="cloud-img">
 
-    <!-- We used a table to separate the image and info into two cells so we can have them one next to each other -->
-    <table cellspacing="20">
-        <tbody>
-            <tr>
-                <td><img src="images/fake-human-circle-img.png" alt="Dennis profile picture"></td>
-                <td>
-                    <h1>Dennis Bitoiu</h1>
-                    <p><em>Student at <strong> <a href="https://www.utwente.nl/"> University of Twente</a></strong></i>
-                    </p>
-                    <p>Hi, I am Dennis, and I am a student at University Of Twente, in <strong>The Netherlands</strong>
-                    </p>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+            <img class="avatar" src="images/fake-human-circle-img.png" alt="dennis-img">
+            <h2>Hello.</h2>
+            <p class="description">My name is Dennis, I am 21 years old, and I am a 3rd year student at the University of Twente,
+                specializing in Creative Technology - Computer Science.
+                I am attracted to all areas related to computer science, but the ones that interest me the most are
+                back-end development and networking.
+            </p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img src="images/giphy.gif" class="code" alt="coding">
+                <h3>Computer Science</h3>
+                <p>Programming is one of my many skills. I have worked with different programming languages as well as
+                    different
+                    frameworks. My area of expertise is Java, but I do not shy away from other challenges.
+                </p>
+            </div>
+
+            <div class="skill-row">
+                <img class="chilly" src="images/chillies.png" alt="">
+                <h3>Eating Hot Wings</h3>
+                <p>I like eating spicy food because it always makes me cry on its way out. I don't like eating raw
+                    chillies because they don't taste good and it even burns deep down my throat</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <img class="contact-img" src="images/contact.png" alt="mail-image">
+            <h2>Get In Touch</h2>
+            <h3>If you want to know more about me!</h3>
+            <p class="contact-msg"><strong>And if you're searching for a reliable person for a job, then you are in the right spot!</strong></p>
+            <a class="btn" href="mailto:dennis.bitoiu01@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
 
 
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/dennis-bitoiu-90526323b/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© Dennis Bitoiu.</p>
+    </div>
 
-    <hr size="3" noshade="">
-
-    <h3>Education</h3>
-    <ul>
-        <li>Highschool (2016-2020)</li>
-        <li>College (2020-Present)</li>
-    </ul>
-
-    <hr size="3" noshade="">
-
-    <h3>Work Experience</h3>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>2010-2013</td>
-                <td>Lead Developer at Tempo App</td>
-            </tr>
-            <tr>
-                <td>2010</td>
-                <td>Researcher at The Institute of Cognitive Neurosciences</td>
-            </tr>
-        </tbody>
-
-    </table>
-
-    <hr size="3" noshade="">
-
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tbody>
-            <tr>
-                <td>
-
-                    <!-- First inner table placed inside of a cell -->
-                    <table>
-                        <tr>
-                            <td>Java </td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Gaming</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-
-                <!-- Second Inner table situated inside of a cell -->
-                <td>
-                    <table>
-                        <tr>
-                            <td>Python</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>C/C#</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-    <hr size="3" noshade="">
-
-    <h3>Hobbies</h3>
-    <p>Click <a href="hobbies.html">HERE</a> if you wanna see my hobbies!!</p>
-
-    <h3>Contact</h3>
-    <p>If you wish to contact me, you can access <a href="contact.html">this</a> page</p>
 
 </body>
 
